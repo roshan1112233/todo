@@ -9,3 +9,4 @@ app.post('/todos', (req, res) => {
   res.json({ message: 'Todo added' });
 });
 app.listen(3000, () => console.log('Server on port 3000'));
+console.log("hello")
